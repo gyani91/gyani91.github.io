@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+ul {
+  text-align: justify;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -338,6 +342,10 @@ section {
   color: #149ddd;
 }
 
+.about .content p {
+  text-align: justify;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -393,7 +401,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -1119,6 +1127,14 @@ section {
   /*height: 100%;*/
 /*}*/
 
+/*--------------------------------------------------------------
+# Carousel
+--------------------------------------------------------------*/
+
+.carousel-item p {
+  text-align: justify;
+}
+
 .carousel-indicators {
   position: absolute;
   bottom: 20px;
@@ -1247,6 +1263,10 @@ section {
     z-index: 1;
 }
 
+/*--------------------------------------------------------------
+# Recent Photos Control Buttons
+--------------------------------------------------------------*/
+
 .owl-prev {
   width: 50px;
   height: 150px;
@@ -1276,6 +1296,11 @@ section {
 .owl-prev i, .owl-next i {transform : scale(3,6); color: #ccc;}
 
 .owl-prev i:hover, .owl-next i:hover {color: #006fbe;}
+
+
+/*--------------------------------------------------------------
+# Food Section
+--------------------------------------------------------------*/
 
 .food img {
   margin-top: 20px;
@@ -1332,6 +1357,4 @@ section {
   /*background: #1e7e34;*/
 /*}*/
 
-ul {
-  text-align: justify;
-}
+
