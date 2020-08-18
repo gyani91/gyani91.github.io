@@ -1079,7 +1079,7 @@ section {
   #footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding-right: 20px;
   }
 }
 /*--------------------------------------------------------------
@@ -1135,12 +1135,12 @@ section {
 
 .carousel-control-prev {
   position: absolute;
-  left: 0px;
+  left: -40px;
 }
 
 .carousel-control-next {
   position: absolute;
-  right: 0px;
+  right: -40px;
 }
 
 .carousel-control-prev-icon {
@@ -1331,3 +1331,7 @@ section {
   /*transform: rotateY(180deg);*/
   /*background: #1e7e34;*/
 /*}*/
+
+ul {
+  text-align: justify;
+}
