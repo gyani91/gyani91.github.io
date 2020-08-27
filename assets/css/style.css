@@ -102,7 +102,7 @@ ul {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
   background: #212431;
   color: #fff;
@@ -111,8 +111,8 @@ ul {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 33px;
+  height: 33px;
   transition: 0.3s;
 }
 
@@ -141,6 +141,7 @@ ul {
 /* Desktop Navigation */
 .nav-menu {
   padding-top: 30px;
+  overflow: auto;
 }
 
 .nav-menu * {
@@ -219,6 +220,7 @@ ul {
   height: 100vh;
   background: url("../img/background.jpg") top center;
   background-size: cover;
+  overflow: auto;
 }
 
 #hero:before {
