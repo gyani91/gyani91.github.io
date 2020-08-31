@@ -102,7 +102,7 @@ ul {
 }
 
 #header .profile .social-links a {
-  font-size: 16px;
+  font-size: 17px;
   display: inline-block;
   background: #212431;
   color: #fff;
@@ -142,6 +142,7 @@ ul {
 .nav-menu {
   padding-top: 30px;
   overflow: auto;
+  -ms-overflow-style: auto;
 }
 
 .nav-menu * {
@@ -221,6 +222,7 @@ ul {
   background: url("../img/background.jpg") top center;
   background-size: cover;
   overflow: auto;
+  -ms-overflow-style: auto;
 }
 
 #hero:before {
@@ -868,6 +870,12 @@ section {
   text-align: center;
   padding: 15px;
 }
+.contact .php-email-form .alert-success {
+  display: none;
+  /*background: #fff;*/
+  text-align: center;
+  padding: 15px;
+}
 
 .contact .php-email-form .loading:before {
   content: "";
@@ -1104,7 +1112,7 @@ section {
 }
 
 .modal-dialog {
-  width: 80%;
+  width: 78%;
   height: 92%;
   max-width: 100%;
   max-height: 100%;
