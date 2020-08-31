@@ -245,8 +245,4 @@ $(".food #gallery-btn").on('click', function(event) {
 
 // document.querySelector(".card-flip").classList.toggle("flip");
 
-$('#contact-form').on('submit', function() {
-  $(".alert-success").show();
-});
-
 
