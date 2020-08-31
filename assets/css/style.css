@@ -143,6 +143,8 @@ ul {
   padding-top: 30px;
   overflow: auto;
   -ms-overflow-style: auto;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 .nav-menu * {
@@ -223,6 +225,8 @@ ul {
   background-size: cover;
   overflow: auto;
   -ms-overflow-style: auto;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 #hero:before {
@@ -916,6 +920,9 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
+.contact .php-email-form button[type="submit"]:disabled {
+  background: #727272;
+}
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1147,7 +1154,7 @@ section {
 
 .carousel-indicators {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
 }
 
 .carousel-indicators li {
