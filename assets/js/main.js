@@ -243,6 +243,6 @@ $(".food #gallery-btn").on('click', function(event) {
   }
 });
 
-// document.querySelector(".card-flip").classList.toggle("flip");
+// Achievement Section
 
 
