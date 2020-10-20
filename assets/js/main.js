@@ -243,6 +243,4 @@ $(".food #gallery-btn").on('click', function(event) {
   }
 });
 
-// Achievement Section
-
 
