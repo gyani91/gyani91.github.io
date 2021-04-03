@@ -231,6 +231,7 @@ $(".food img:lt(4)").show();
 
 // When the gallery button is clicked
 $(".food #gallery-btn").on('click', function(event) {
+  document.getElementById("gallery-btn-less").disabled = false;
   // Prevent default behavior
   event.preventDefault();
   // All of the hidden images
@@ -239,8 +240,16 @@ $(".food #gallery-btn").on('click', function(event) {
   $($hidden).slice(0, 8).fadeIn(800);
   // If the length of $hidden is 8 then hide the button
   if ($hidden.length <= 8) {
-    $(this).fadeOut();
+    document.getElementById("gallery-btn").disabled = true;
   }
 });
 
-
+// When the gallery button is clicked
+$(".food #gallery-btn-less").on('click', function(event) {
+  // Prevent default behavior
+  event.preventDefault();
+  $(".food img").hide();
+  $(".food img:lt(4)").show();
+  document.getElementById("gallery-btn-less").disabled = true;;
+  document.getElementById("gallery-btn").disabled = false;
+});
