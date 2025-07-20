@@ -616,7 +616,7 @@
                               edge technologies, including Generative AI, Retrieval-Augmented Generation (RAG), and Agentic AI.
                               These initiatives have driven impactful results, though the specific use cases remain confidential.</li><br>
                             <li>Leveraging a robust tech stack, I utilized foundational models via Azure, along with key libraries such
-                              as <b>PyTorch</b>, <b>FAISS</b>, and <b>LangGraph</b>.</li><br>
+                              as <b>LangGraph</b>, <b>FAISS</b>, and <b>MCP</b>.</li><br>
                           </ul>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -635,10 +635,12 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://machinelearning.apple.com">
                               Apple Research</a>, Cupertino</em></p>
                           <ul>
-                            <li>This was a Natural Language Processing project for Apple.</li><br>
-                            <li>Created Data pipeline using Transformer models to perform Language Identification, Translation, Topic Mining, Sentiment Analysis, and Summarization for the reviews of their First Party Apps.</li><br>
-                            <li>Large volume of data required usage of pandas and pyspark to perform distributed computing and usage of GPU clusters to run models at scale.</li><br>
-                            <li>Productionized models and created CI/CD pipelines on Apple's proprietary infrastructure.</li><br>
+                            <li>A Natural Language Processing project where I developed data pipelines leveraging Transformer models
+                              for Language Identification, Translation, Topic Mining, Sentiment Analysis, and Summarization of
+                              reviews for Apple's first-party apps.</li><br>
+                            <li>Handling large volumes of data required the use of <b>Polars</b> and <b>PySpark</b> for distributed computing,
+                              along with GPU clusters to scale model execution. Successfully productionized the models on Apple's
+                              proprietary infrastructure.</li><br>
                           </ul>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -657,11 +659,17 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nomoko/">
                               Nomoko AG</a>, Zürich</em></p>
                           <ul>
-                            <li>This project was developed in collaboration with Dalle Molle Institute for Artificial Intelligence Research (IDSIA) where the task was to perform semantic segmentation on city-scale point clouds reconstructed from our aerial and terrestrial captures with proprietary camera sensors. </li><br>
-                            <li>Designed and constructed the machine learning pipelines for ingesting and preparing the data using SfM and SLAM. Training, evaluating, and deploying several Computer Vision models.</li><br>
+                            <li>This project, developed in collaboration with the Dalle Molle Institute for Artificial Intelligence 
+                              Research (IDSIA), focused on semantic segmentation of city-scale point clouds reconstructed from aerial
+                              and terrestrial captures using proprietary camera sensors.</li><br>
+                            <li>I designed and built machine learning pipelines for data ingestion and preparation, leveraging 
+                              <b>Structure from Motion (SfM)</b> and <b>Simultaneous Localization and Mapping (SLAM)</b>. Additionally,
+                              I trained, evaluated, and deployed multiple Computer Vision models.</li><br>
                             <li>Created pipelines for ingesting unstructured data, such as, image sequences, GPS metadata, other sensor inputs.</li><br>
-                            <li>Did a literature review on state-of-the-art classification, detection, and segmentation techniques and deployed an ensemble of methods, including Panoptic-DeepLab, Mask-RCNN, and PointNet.</li><br>
-                            <li>Conducted weekly training sessions for the entire software team on several computer science skills, such as Linux commands, Docker, and Kubernetes.</li><br>
+                            <li>Conducted a literature review on state-of-the-art classification, detection, and segmentation techniques,
+                              implementing an ensemble approach that included Panoptic-DeepLab, Mask R-CNN, and PointNet.</li><br>
+                            <li>Led weekly training sessions for the software engineering team, covering key computer science skills
+                              such as Linux commands, environment setup, Docker, and CI/CD.</li><br>
                           </ul>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -680,11 +688,11 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nomoko/">
                               Nomoko AG</a>, Zürich</em></p>
                           <ul>
-                            <li>Developed an API to store semantic annotation data in a model-agnostic format into a Postgres DB using Flask-SQLAlchemy in Python.</li><br>
-                            <li>Created the REST API and Click to provide both HTTP endpoints and CLI interfaces to the user.</li><br>
-                            <li>It automatically converts segmentation data from various formats, such as polygons or masks, into a standard format and efficiently store it.</li><br>
-                            <li>Added the capability of exporting unique datasets by performing a chain of operations, including splitting, merging, filtering, and scaling of several existing datasets, into a model-specific format.</li><br>
-                            <li>Finally, deployed MLflow on Linux Servers to train and evaluate several models at scale.</li><br>
+                            <li>Developed an API using Flask-SQLAlchemy in Python to store semantic annotation data in a model-agnostic format within a PostgreSQL database.</li><br>
+                            <li>Designed and implemented a REST API and CLI interface using Click, providing both HTTP endpoints and command-line access.</li><br>
+                            <li>Automated the conversion of segmentation data from various formats, such as polygons and masks, into a standardized structure for efficient storage.</li><br>
+                            <li>Added functionality to export unique datasets by performing a chain of operations — including splitting, merging, filtering, and scaling - on multiple existing datasets, transforming them into model-specific formats.</li><br>
+                            <li>Deployed MLflow on Linux servers to train and evaluate multiple models at scale.</li><br>
                           </ul>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -706,8 +714,12 @@
                             <li>Prepared a report on <i>HPC readiness of Deep Learning Libraries</i> for the CTO of CSCS and recommended candidate libraries to build on <a href="https://www.cscs.ch/computers/piz-daint/" target="_blank" rel="noopener noreferrer">Piz Daint</a>.</li><br>
                             <li>Piz Daint, at the time of the project, was the <a href="https://www.top500.org/lists/top500/2017/11/" target="_blank" rel="noopener noreferrer">third most powerful supercomputer</a> in the world.</li><br>
 <!--                            <li>Proposed an open-source communication framework to replace the otherwise expensive Cray ML Plugin. Moreover, I built a containerized solution as a proof-of-concept to prove that it delivers equivalent performance.</li><br>-->
-                            <li>Deployed a docker container with TensorFlow, Keras, Caffe2, and PyTorch that could utilize the power of 5700 GPU nodes of Piz Daint.</li><br>
-                            <li>Ran several weak-scaling and strong-scaling benchmarks on these Deep Learning Frameworks for training Deep CNNs, including AlexNet, ResNet50, ResNet101, ResNet152.</li><br>
+                            <li>Proposed an open-source communication framework to replace the costly Cray ML Plugin and developed
+                              a containerized proof-of-concept, demonstrating equivalent performance.</li><br>
+                            <li>Deployed a Docker container integrating TensorFlow, Keras, Caﬀe2, and PyTorch, enabling eﬃcient
+                              utilization of 5,700 GPU nodes on Piz Daint.</li><br>
+                            <li>Conducted extensive weak-scaling and strong-scaling benchmarks on these Deep Learning frameworks,
+                              evaluating AlexNet, ResNet50, ResNet101, and ResNet152 for deep CNN training.</li>
                           </ul>
                           <a href="https://github.com/gyani91/High-Performance-Computing/blob/master/Scalability%20of%20Deep%20Learning%20Frameworks" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Project</a>
                           <a href="https://github.com/gyani91/High-Performance-Computing/blob/master/Scalability%20of%20Deep%20Learning%20Frameworks/Report.pdf" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Report</a>
@@ -728,9 +740,15 @@
                             <em>Mixed Reality and AI Lab, <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/research/">
                               Microsoft Research</a>, Zürich</em></p>
                           <ul>
-                            <li>Created an automated pipeline to generate ground-truth data (binary masks and tight 3D bounding-box vertices) from only RGB images of an object, without any use of depth information or Aruco markers.</li><br>
-                            <li>The pipeline involves 3D reconstruction, point cloud alignment, background subtraction, and morphological operations for extracting camera intrinsic parameters, sparse 3D reconstruction, tight 3D bounding box, object points, binary segmentation masks, and 6D poses for all the images in the dataset.</li><br>
-                            <li>Attempted to improve the accuracy of Microsoft's Single Shot Pose, an approach for simultaneously detecting an object class and its 6D pose, by adding a Perspective-n-Point (PnP) component to the loss function.</li><br>
+                            <li>Developed an automated pipeline to generate training data, including binary masks and tight 3D
+                              bounding-box vertices, using only RGB images - without relying on depth information or Aruco markers.</li><br>
+                            <li>The pipeline integrated 3D reconstruction (COLMAP), point cloud alignment, background subtraction,
+                              and morphological operations to extract camera intrinsic parameters, perform sparse 3D reconstruction,
+                              define tight 3D bounding boxes, and generate object points, binary segmentation masks, and 6D poses
+                              for all dataset images.</li><br>
+                            <li>Further, I aimed to enhance the accuracy of Microsoft's Single Shot Pose, a method for simultaneous
+                              object class detection and 6D pose estimation, by incorporating a Perspective-n-Point (PnP) component
+                              into the loss function.</li><br>
                           </ul>
                           <a href="https://www.dropbox.com/s/q6jmm1faw766wxp/Gyanchandani_Master_Thesis.pdf?dl=0" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Thesis</a>
                           <a href="https://prezi.com/view/MAi1qXg1WgD3cYPbKsky/" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Presentation</a>
@@ -751,11 +769,11 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://www.credit-suisse.com/about-us/en/reports-research.html">
                               Credit Suisse</a>, Zürich</em></p>
                           <ul>
-                            <li>The project required creating and automating ETL pipelines for cleaning and landing data from multiple sources by writing PySpark transforms in Foundry.</li><br>
-                            <li>Aggregated, cross-referenced and combined siloed data from hundreds of disparate data sources.</li><br>
-                            <li>Used Entity Resolution to identify overlapping records where joining these data sources was not possible.</li><br>
-                            <li>Used Machine Learning to predict risky transactions and mitigate potential money laundering cases.</li><br>
-                            <li>Used Slate and Typescript to create dashboards which helped Relationship Manager to make onboarding decisions for new clients.</li><br>
+                            <li>Designed and automated ETL pipelines in Palantir Foundry using PySpark to clean and ingest data from multiple sources.</li><br>
+                            <li>Aggregated, cross-referenced, and integrated siloed data from hundreds of disparate sources.</li><br>
+                            <li>Leveraged Entity Resolution to identify overlapping records where traditional joins were not feasible.</li><br>
+                            <li>Applied Machine Learning to detect risky transactions and mitigate potential money laundering cases.</li><br>
+                            <li>Developed interactive dashboards using <b>Slate</b> and <b>TypeScript</b>, enabling Relationship Managers to make informed onboarding decisions for new clients.</li><br>
                           </ul>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -774,10 +792,10 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/ETH_Zurich">
                               ETH Zürich</a></em></p>
                           <ul>
-                            <li>Designed the Fleet Management Challenge for AI Driving Olympics held at NeurIPS and ICRA conferences.</li><br>
-                            <li>This work is a contribution to an open-source project called <a href="https://www.duckietown.org/about/duckietown-foundation" target="_blank" rel="noopener noreferrer">Duckietown</a>.</li><br>
-                            <li>The Duckietown project is a joint effort by several universities including, Université de Montréal, MIT, ETH Zürich, as an effort to drive research in Robotics and AI to help develop various Autonomous Vehicles.</li><br>
-                            <li>The Fleet Dispatcher and the Physics Engine for the project are made using ROSPy and the visualization is designed in RViz.</li><br>
+                            <li>Designed the <b>Fleet Management Challenge</b> for the AI Driving Olympics, held at the NeurIPS and ICRA conferences.</li><br>
+                            <li>Contributed to <a href="https://www.duckietown.org/about/duckietown-foundation" target="_blank" rel="noopener noreferrer">Duckietown</a>, an open-source project aimed at advancing research in Robotics and AI for autonomous vehicles.</li><br>
+                            <li>Duckietown is a collaborative effort involving several universities, including <b>Université de Montréal</b>, <b>MIT</b>, and <b>ETH Zürich</b>.</li><br>
+                            <li>Developed the Fleet Dispatcher and Physics Engine using <b>ROSPy</b>, with visualization implemented in <b>RViz</b>.</li><br>
                           </ul>
                           <a href="https://github.com/duckietown/duckietown-fplan" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Project</a>
                           <a href="https://www.duckietown.org/research/ai-driving-olympics" class="btn btn-info btn-md" target="_blank" rel="noopener noreferrer">Website</a>
@@ -823,7 +841,7 @@
                             <em><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Università_della_Svizzera_italiana">
                               Università della Svizzera italiana</a></em></p>
                           <ul>
-                            <li>Conducted analysis on the accuracy achieved with fine-tuning using Google’s Inception v3 by varying the number of images and classes.</li><br>
+                            <li>Conducted analysis on the accuracy achieved with fine-tuning using Google's Inception v3 by varying the number of images and classes.</li><br>
                             <li>Performance several data augmentation techniques, including, random cropping, scaling, flipping.</li><br>
                             <li>The datasets used for this analysis were Animals on the Web, Animals with Attributes 2, and NIH Chest X-ray images.</li><br>
                           </ul>
